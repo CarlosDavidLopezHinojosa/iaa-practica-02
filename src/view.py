@@ -9,6 +9,13 @@ from sklearn.linear_model import Lasso, Ridge, ElasticNet
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import time
 
+def participants():
+    st.header("Participantes")
+    st.markdown("""
+    - **Nombres:** Javier Gómez Aparicio, Daniel Grande Rubio, Carlos David López Hinojosa, Carlos de la Torre Frías
+    - **Grupo:** 6
+    """)
+
 def run_simple_regression():
     st.header("1. Regresión lineal con gradiente descendente")
     st.subheader("1.1. Gradiente descendente: Explicación y ejemplo")
@@ -223,7 +230,7 @@ def run_regularization_and_sklearn():
 
 def main():
     st.title("IAA: Práctica 2 - Regresión lineal")
-    
+    participants()
     run_simple_regression()
     run_dataset_regression()
     run_batch_and_minibatch()
