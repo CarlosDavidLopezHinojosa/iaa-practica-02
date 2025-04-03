@@ -73,7 +73,7 @@ La aplicación permite:
 
 ### Opción 1: Accede a la aplicación alojada en el servidor de `streamlit`
 - Te permite ejecutar la práctica sin instalar nada, pero puede ir más lenta que si la ejecutas en tu ordenador.
-- (enlace)[ssss]
+- [Enlace a nuestra práctica](https://iaa-practica-02.streamlit.app/)
 
 
 ### Opción 2: Usar el script `start.sh`
