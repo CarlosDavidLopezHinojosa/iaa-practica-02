@@ -12,8 +12,8 @@ import time
 def participants():
     st.header("Participantes")
     st.markdown("""
-    - **Nombres:** Javier Gómez Aparicio, Daniel Grande Rubio, Carlos David López Hinojosa, Carlos de la Torre Frías
-    - **Grupo:** 6
+    - **Javier Gómez Aparicio, Daniel Grande Rubio, Carlos David López Hinojosa, Carlos de la Torre Frías**
+    - **Grupo: 6**
     """)
 
 def run_simple_regression():
